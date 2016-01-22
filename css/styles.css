@@ -1,0 +1,96 @@
+/*
+	Author:Destiny Roberts
+	Created:01/13/16
+	Updated:01/13/16
+*/
+body{
+	font-family:Papyrus,fantasy;
+	width:90%;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	/*shorthand*/
+	margin:20px auto;
+	background-color:#ffff66;
+	color:#cc3333;
+	line-height:1.5em;
+	text-transform:none;
+}
+h1{
+	text-align:center;
+	font-weight:normal;
+	border-bottom-width:2px;
+	border-bottom-style:dashed;
+	border-bottom-color:#a6cc33;
+	padding:30px;
+	font-size:50px;
+}
+p{
+	line-height:1.5em;
+	text-align:center;
+	font-size:25px;
+
+}
+figure{
+	text-align:center;
+}
+figcaption{
+	font-size:20px;
+	padding:10px;
+	line-height:1.5em;
+}
+a{
+	color:#59cc33;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:hover{
+	color:#66a329;
+	text-decoration:underline;
+	cursor:pointer;
+}
+#myButton {
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:9px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+#myButton:hover {
+	background-color:#eb675e;
+}
+#myButton:active {
+	position:relative;
+	top:1px;
+}
+nav a{
+	line-height:1.5em;
+}
+
+li{
+	color:#66a329;
+	padding:10px;
+	font-size:30px;
+	
+}
+img{
+	max-width:100%;
+	width:auto;
+	height:auto;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	box-sizing:border-box;
+}
